@@ -4,6 +4,6 @@ from setuptools import setup, find_packages
 
 setup(
     name="common_analysis_base",
-    version=subprocess.check_output(['git', 'describe', '--always'], cwd=os.path.dirname(os.path.abspath(__file__))).strip().decode('utf-8'),
+    version='0.1',
     packages=find_packages(),
 )
